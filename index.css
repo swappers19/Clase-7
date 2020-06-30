@@ -1,4 +1,4 @@
-.padre{
+/* .padre{
     width: 500px;
     height: 500px;
     border: black 1px solid;
@@ -10,13 +10,93 @@
     border: blue 1px solid;
     position: absolute;
     top: 0;
-    
-    right: 50%;
-    
 }
 .medio{
     width: 250px;
     height: 250px;
     border: 1px red solid;
     margin-left: 50px;
+} */
+.cara{
+    width: 600px;
+    height: 600px;
+    border: black solid 1px;
+    position: relative;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    background-color: wheat;
+
+}
+.ojo{
+    width: 100px;
+    height: 100px;
+    border: black solid 1px;
+    position: absolute;
+    left: 100px;
+    border-radius: 50px;
+    top: 50px;
+   background-color:white;
+
+}
+
+.boca{
+    display: flex;
+    bottom: 200px;
+    position: absolute;
+    left: 150px;
+    border: black solid 1px;
+    border-radius: 20px;
+    
+    /* border: black 1px solid; */
+}
+.boca div{
+    width: 50px;
+    height: 50px;
+    border: solid black 1px;
+    background-color: white;
+    
+}
+.ojoderecho{
+    width: 100px;
+    height: 100px;
+    border: black solid 1px;
+    display: flex;
+    right: 100px;
+    position: absolute;
+    border-radius: 50px;
+    top: 50px;
+    background-color: white;
+    
+} 
+.pelo{
+height: 20px;
+width: 100%;
+border: black solid 1px;
+background-color: black;
+
+}
+.nariz{
+    width: 100px;
+    height: 100px;
+    border: black solid 1px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 50%;
+    right: 40%;
+    background-color: black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.pupila{
+    height: 30px;
+    width: 30px;
+    border: black solid 1px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content:space-around;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
 }
