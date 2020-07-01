@@ -60,7 +60,7 @@
     height: 50px;
     border: solid black 1px;
     background-color: white;
-    background-image: image-set(images.jpg);
+    
 
     
 }
@@ -105,6 +105,7 @@ background-color: black;
     position: absolute;
     bottom: 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
     left: 30px;
+    
 }
 .boca div:first-child{
     border-bottom-left-radius: 50px;
@@ -114,5 +115,12 @@ background-color: black;
 .boca div:last-child{
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
+    background-color: red;
+}
+.pupila:hover {
+    background-color: red;
+
+}
+.boca:hover {
     background-color: red;
 }
